@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="jogoDaVelha.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Vamos brincar</h1>
+        <h2>de</h2>
+        <h1>Jogo da Velha</h1>
+    </header>
+
+    <main>
+        <table class="game">
+            <tr class="oneLine">
+                <td class="cell" onclick="game(this)"></td>
+                <td class="cell" onclick="game(this)"></td>
+                <td class="cell" onclick="game(this)"></td>
+            </tr>
+
+            <tr class="twoLine">
+                <td class="cell" onclick="game(this)"></td>
+                <td class="cell" onclick="game(this)"></td>
+                <td class="cell" onclick="game(this)"></td>
+            </tr>
+
+            <tr class="treeLine">
+                <td class="cell" onclick="game(this)"></td>
+                <td class="cell" onclick="game(this)"></td>
+                <td class="cell" onclick="game(this)"></td>
+            </tr>
+        </table>
+
+        <p class="winner">VOCÊ VENCEU!</p>
+
+        <div>
+            <button onclick="reset()">Reiniciar</button>
+        </div>
+    </main>
+</body>
+    <script src="jogoDaVelha.js"></script>
+</html>

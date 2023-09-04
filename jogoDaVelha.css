@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+    box-shadow: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(26, 6, 26);
+    padding: 5em;
+}
+header{
+    background-image: linear-gradient(rgb(78, 9, 78), rgb(26, 6, 26));
+    /* background-color: rgb(41, 12, 41); */
+    color: rgb(51, 147, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.2em;
+    padding: 1em;
+}
+.game{
+    background-image:url(ai-generated-g4d53ec765_1920.png);
+    background-size: cover;
+    background-position: center center ;
+}
+.cell{
+    width: 220px;
+    height: 220px;
+    border: 2px solid  rgb(223, 26, 223);;
+}
+.points{
+    display: flex;
+    flex-direction: row;
+    font-size: 6em;
+    color: rgb(51, 147, 236);
+    gap: 12em;
+    margin-top: -5em;
+    position: absolute;
+}
+button{
+    background-color:  rgb(51, 147, 236);
+    font-size: 2em;
+    padding: 0.5em;
+    width: 8em;
+    color: rgb(244, 245, 244);
+    border-radius: 0.5em;
+    margin: 2em;
+    margin-top: 2em;
+}
+.cell{
+    font-size: 7em;
+    color: rgb(244, 245, 244);
+    font-weight: 700;
+}
+.winner{
+    position: absolute;
+    margin-top: -3.5em;
+    font-size: 8em;
+    color: rgb(96, 9, 107);
+    background-color: rgba(18, 97, 216, 0.966);
+    border-radius: 0.2em;
+    padding: 0.1em;
+    font-weight: 700;
+    display: none;
+    transition: opacity 1s ease;
+}
+
+
